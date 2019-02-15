@@ -1,0 +1,77 @@
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+  }
+  
+  .form {
+    margin: 1rem auto;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .form input {
+    padding: .5rem;
+  }
+  
+  .btn {
+    display: block;
+  }
+  
+  .cardPost {
+    margin: 1rem 0;
+    box-shadow: 0 0 1rem greenyellow;
+ 
+    padding: 1rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .card h3 {
+    color: grey;
+  }
+  
+  .openComents{
+    background: #98c3f0;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+
+  .coments{
+    background: #ced9d9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+
+  }
+
+  .date{
+    text-align: end;
+    font-size: 12px;
+  }
+
+  .btn{
+    background: #98c3f0;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+
+  .btnAdd{
+    background: #98c3f0;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+
+  }
